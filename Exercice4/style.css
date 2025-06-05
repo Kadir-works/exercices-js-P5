@@ -1,0 +1,38 @@
+/* 1. Couleurs d’arrière-plan */
+header {
+    background-color: #FFCC99;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 6. Ombre */
+    text-align: center; /* 2. Centrer le texte */
+    font-weight: bold;  /* 2. Texte en gras */
+    padding: 20px;
+}
+
+main {
+    background-color: #E6F2FF; /* 1. main */
+    margin: 20px; /* 3. Marge autour de main */
+    display: flex; /* 4. Flexbox */
+    gap: 20px; /* espacement entre aside et section */
+    padding: 20px;
+}
+
+aside {
+    background-color: #B3D9FF; /* 1. aside */
+    flex: 1; /* 4. Flex */
+    border: 1px solid #CCC; /* 5. Bordure grise */
+    padding: 10px;
+}
+
+section {
+    flex: 3; /* 4. Flex */
+    padding: 10px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #99CC99; /* 1. footer */
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #CCC; /* 5. Bordure grise */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2); /* 6. Ombre */
+    font-weight: bold;
+}

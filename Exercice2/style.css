@@ -1,4 +1,105 @@
-html {
-    height: 100%;
-    width: 100%;
+/* Style général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.main-content {
+    padding: 2rem;
+}
+
+/* Hero section */
+.hero {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section bio */
+.bio {
+    margin-bottom: 2rem;
+}
+
+.bio h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.bio p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Liste des membres */
+.members {
+    margin-bottom: 2rem;
+}
+
+.members h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.members ul {
+    list-style: none;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.members li {
+    margin: 0.5rem 0;
+}
+
+/* Section musique */
+.music {
+    margin-bottom: 2rem;
+}
+
+.music a {
+    font-size: 1.2rem;
+    color: #008CBA;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.music a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
 }

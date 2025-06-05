@@ -1,0 +1,11 @@
+// Déclaration d'une variable pour la couleur bleue
+$blue: #0000ff;
+
+// Appliquer les styles
+ul {
+  li {
+    color: $blue; // 1. Couleur de texte bleue
+    padding-left: 10px; // 2. Espacement intérieur de 10px à gauche
+    margin-bottom: 15px; // 3. Marge inférieure de 15px
+  }
+}
